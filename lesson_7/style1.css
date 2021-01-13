@@ -1,0 +1,76 @@
+div{
+    margin-right: 435px;
+    margin-left: 435px;
+}
+
+h1{
+    text-align: right;
+    color: orange;
+}
+
+p>em{
+    background-color: green;
+    color: white;
+}
+
+p:first-letter{
+    color: red;
+    font-size: 30px;
+}
+
+p{
+    font-weight: 600;
+}
+
+h2{
+     color:blue;
+ }
+
+h2.garden{
+    color: orange;
+}
+
+li>span{
+    font-weight: bold;
+}
+
+ul>li:nth-last-child(1)>ol:nth-last-child(1){
+    color: red;
+}
+
+ul>li>ol{
+    color: gray;
+}
+
+ol.vegan{
+    color: green;
+}
+
+table {
+    border: 1px solid grey;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+}
+
+td.name{
+    color: orange;
+    text-align: left;
+    font-weight: normal;
+}
+
+ td.green{
+     background-color: green;
+     color: white;
+}
+
+
+
+
