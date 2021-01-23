@@ -1,0 +1,16 @@
+a[href *= 'yandex'] {
+  color: #f70;
+}
+
+a[href *= 'google'] {
+  color: #666;
+}
+
+a[target = '_blank']:after {
+  position: absolute;
+  margin-left: 0.5em;
+  content: ' ⇱';
+  transform: rotate(90deg);
+}
+
+
