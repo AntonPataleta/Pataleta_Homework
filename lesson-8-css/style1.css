@@ -1,0 +1,29 @@
+fieldset:first-child{
+    width: 60%;
+    height: 270px;
+}
+
+textarea {
+    width: 30%;
+    height: 150px;
+    resize: none;
+}
+
+fieldset:first-child>input, label{
+    display:block;
+}
+
+fieldset{
+    width: 60%;
+    height: 30px;
+}
+
+ fieldset:nth-child(3) {
+    width: 60%;
+    height: 80px;
+}
+
+ fieldset:nth-child(4) {
+    width: 60%;
+    height: 60px;
+}
