@@ -1,0 +1,24 @@
+table {
+    border-spacing: 0;
+    font-size: 11pt;
+    font-weight: 500;
+    width: 840px;
+
+}
+
+tr:nth-child(2n) {
+    background-color:#ddebf7;
+
+}
+
+td:nth-child(2n+3) {
+    background-color: #f2f2de;
+
+}
+
+td {
+    border-bottom: #AAA 1px solid;
+    padding: 5px;
+}
+
+
