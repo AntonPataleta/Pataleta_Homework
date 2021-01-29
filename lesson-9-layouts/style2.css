@@ -1,0 +1,41 @@
+.menu ul {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline;
+    color: blueviolet;
+    padding-right: 2px;
+}
+
+.menu a {
+    text-decoration: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.menu a:hover {
+    background: blueviolet;
+    color: white;
+}
+.menu span {
+    border-bottom: dotted;
+    padding: 4px;
+    margin: 10px 10px 10px;
+
+}
+
+.start a,
+.finish a {
+    border: none;
+    margin-right: 10px;
+}
+.start a:before{
+    content: "«";
+    margin-right: 4px;
+}
+.finish a:after {
+    content: "»";
+    margin-left: 4px;
+}
