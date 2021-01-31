@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<h1>Sign up to the app</h1>
+<form  enctype="text/plain">
+  <fieldset>
+    <legend>Personal information</legend>
+    <label >First name:</label>
+    <input type="text" value="Mickey">
+    <label >Last name:</label>
+    <input type="text" value="Mouse">
+    <label>Self-presentation</label>
+    <textarea name="comment">The cat was plaing in the garden</textarea>
+  </fieldset>
+  <fieldset>
+    <legend>Car Info (the brand):</legend>
+    <select name="brand">
+      <option selected>Volvo</option>
+      <option>Saab</option>
+      <option>Fiat</option>
+      <option>Audi</option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <legend>Choose one:</legend>
+    <input type="radio" name="male" checked> Male <br>
+    <input type="radio" name="female"> Female <br>
+    <input type="radio" name="other"> Other
+  </fieldset>
+  <fieldset>
+    <legend>Choose many:</legend>
+    <input type="checkbox" name="car"> I have a car <br>
+    <input type="checkbox" name="bike"> I have a bike
+  </fieldset>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Cancel">
+
+</form>
+
+</body>
+</html>
