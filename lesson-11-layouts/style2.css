@@ -1,0 +1,28 @@
+body {
+    background: black;
+    color: #888c94;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+h1>span {
+    color: #ee8129;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+.content {
+    overflow: auto;
+    height: 130px;
+    width: 500px;
+}
+.img {
+    float: left;
+    height: 100px;
+    padding-right: 20px;
+}
